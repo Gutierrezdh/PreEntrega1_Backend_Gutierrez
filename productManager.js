@@ -17,7 +17,7 @@ class ProductManager {
             console.error('Ya existe un producto con este código.');
             return;
         }
-        // Agrego producto con id autoincremental
+        // Agrego producto e incremento el id
         const newProduct = {
             id: this.productIdCounter,
             title,
